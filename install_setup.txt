@@ -1,0 +1,11 @@
+
+CMD Commands
+
+# Create virtual environment
+py -3 -m venv .venv
+
+# Start it
+.venv\scripts\activate
+
+# Start Flask
+python -m flask run
