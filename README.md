@@ -11,8 +11,8 @@ Endpoints
   
   /api/posts  
     parameters:   
-    &ensp  tags - mandatory, the type of posts to return (the tags represent the 'type' of the post).  
-   &ensp   sortBy - optional, what field to sort the data by. Options include id, reads, likes, popularity.  
-  &ensp    direction - optional (default descending), the direction of the data to be ordered.   
+    &ensp;  tags - mandatory, the type of posts to return (the tags represent the 'type' of the post).  
+   &ensp;   sortBy - optional, what field to sort the data by. Options include id, reads, likes, popularity.  
+  &ensp;    direction - optional (default descending), the direction of the data to be ordered.   
   
   All data returned is in JSON format
